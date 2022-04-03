@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<p>u</p>
+<p> Hello {{ .u.Name }}!</p>
+<p> 性别 ：{{ .u.Gender }}!</p>
+<p> 年龄：{{ .u.Age }}!</p>
+<p>m</p>
+<p> Hello {{ .m.name }}!</p>
+<p> 性别 ：{{ .m.gender }}!</p>
+<p> 年龄：{{ .m.age }}!</p>
+
+{{/* 注释 */}}
+<hr>
+{{$v1:=100}}
+{{$age:=.m1.age}}
+<hr>
+{{if $v1}}
+值为：{{$v1}}
+{{else}}
+啥也没有
+{{end}}
+<hr>
+{{ if lt .m.age 23}}
+好好上学
+{{else}}
+好好工作
+{{end}}
+
+<hr>
+{{ range $idx,$hobby:=.hobbies}}
+    <p>{{$idx}}-{{$hobby}}</p>
+{{else}}
+爱好为空
+{{end}}
+<hr>
+{{with .m}}
+<p> {{ .name }}</p>
+<p> {{ .gender }}</p>
+<p> {{ .age }}</p>
+{{end}}
+<hr>
+{{index .hobbies 1}}
+
+</body>
+</html>

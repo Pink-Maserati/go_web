@@ -1,0 +1,7 @@
+{"client_ip":"127.0.0.1","latency_time":370386,"level":"info","msg":"","req_method":"GET","req_uri":"/","status_code":200,"time":"2022-02-11 18:20:25"}
+{"client_ip":"127.0.0.1","latency_time":2849095,"level":"info","msg":"","req_method":"GET","req_uri":"/v1/todo","status_code":200,"time":"2022-02-11 18:20:25"}
+{"client_ip":"127.0.0.1","latency_time":249899,"level":"info","msg":"","req_method":"GET","req_uri":"/","status_code":200,"time":"2022-02-11 18:20:37"}
+{"client_ip":"127.0.0.1","latency_time":414303,"level":"info","msg":"","req_method":"GET","req_uri":"/v1/todo","status_code":200,"time":"2022-02-11 18:20:37"}
+{"client_ip":"127.0.0.1","latency_time":29617842,"level":"info","msg":"","req_method":"POST","req_uri":"/v1/todo","status_code":200,"time":"2022-02-11 18:21:38"}
+{"client_ip":"127.0.0.1","latency_time":861845,"level":"info","msg":"","req_method":"GET","req_uri":"/v1/todo","status_code":200,"time":"2022-02-11 18:21:38"}
+{"client_ip":"127.0.0.1","latency_time":6786685,"level":"info","msg":"","req_method":"PUT","req_uri":"/v1/todo/6","status_code":200,"time":"2022-02-11 18:21:39"}
